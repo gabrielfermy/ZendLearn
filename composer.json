@@ -9,6 +9,14 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
+<<<<<<< HEAD
         "zendframework/zendframework": "2.3.3"
+=======
+        "zendframework/zendframework": "~2.4"
+    },
+
+    "autoload": {
+        "psr-0": {"Album": "module/Album/src"}
+>>>>>>> origin/master
     }
 }
